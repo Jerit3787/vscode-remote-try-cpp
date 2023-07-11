@@ -43,6 +43,9 @@ int main() {
     // Calculate the length of a string
     printf("The result of strlen is s1 = %d / s2 = %d\n", strlen(demoString1), strlen(demoString2));
 
+    resetString();
+
+    printf("The result of strchr is %d", strchr(demoString1, 'l'));
     
 
     return 0;
